@@ -2,7 +2,7 @@
 -export([is_palindrome/1]).
 
 is_palindrome(L) ->
-    L == reverse(L).
+    L =:= reverse(L).
 
 reverse(L) ->
     reverse(L, []).
